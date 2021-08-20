@@ -2,3 +2,20 @@
 	width : 100%;
 	height: auto;
 }
+
+h4{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: black;
+    left: 42%;
+  
+}
+.splide__list div{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    color: black;
+    left: 39%;
+    
+}

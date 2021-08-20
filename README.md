@@ -41,3 +41,23 @@ document.addEventListener( 'DOMContentLoaded', function () {
 	} ).mount();
 } );
 ```
+
+##### perPage option, a slide can have multiple slides in a view port.
+##### setting breakpoints for smaller devices
+```js
+	breakpoints: {
+			600: {
+				perPage: 1,
+			}
+```
+
+### full screen slider
+
+```js
+document.addEventListener( 'DOMContentLoaded', function () {
+	new Splide( '#fullscreen-slider', {
+		width : '100vw',
+		height: '100vh',
+	} ).mount();
+} );
+```

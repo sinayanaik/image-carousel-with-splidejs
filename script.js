@@ -1,6 +1,12 @@
 document.addEventListener( 'DOMContentLoaded', function () {
-	new Splide( '#image-slider', {
-		'cover'      : true,
-		'heightRatio': 0.5,
+	new Splide( '#card-slider', {
+		perPage    : 2,
+		breakpoints: {
+			600: {
+				perPage: 1,
+			}
+		},
+        'cover'      : true,
+		'heightRatio': 0.3,
 	} ).mount();
 } );
