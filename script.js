@@ -6,7 +6,5 @@ document.addEventListener( 'DOMContentLoaded', function () {
 				perPage: 1,
 			}
 		},
-        'cover'      : true,
-		'heightRatio': 0.3,
 	} ).mount();
 } );
